@@ -1,0 +1,9 @@
+.page-dashboard #page-content-wrapper {
+    background: #f5f5fb;
+    min-width: 100vw;
+}
+.page-dashboard #sidebar-wrapper {
+    margin-top: 60px;
+    min-height: 100vh;
+    margin-left: -15rem;
+} /*# sourceMappingURL=dashboard.css.map */

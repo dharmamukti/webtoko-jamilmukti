@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "sources": [
+        "dashboard.scss",
+        "dashboard.css"
+    ],
+    "names": [],
+    "mappings": "AACE;EACE,mBAAA;EACA,gBAAA;ACAJ;ADGE;EACE,gBAAA;EACA,iBAAA;EACA,mBAAA;ACDJ",
+    "file": "dashboard.css"
+}
