@@ -57,8 +57,7 @@
               My Account
             </a>
             <a
-              href="{{ route('logout') }}"
-              onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
+              href="{{ route('home') }}"
               class="list-group-item list-group-item-action"
             >
               Sign Out

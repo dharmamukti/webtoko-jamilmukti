@@ -52,7 +52,7 @@
               Categories
             </a>
             <a
-              href="#"
+              href="{{ route('transaction.index') }}"
               class="list-group-item list-group-item-action"
             >
               Transactions
@@ -64,7 +64,7 @@
               Users
             </a>
             <a
-              href="/index.html"
+              href="/"
               class="list-group-item list-group-item-action"
             >
               Sign Out
@@ -109,7 +109,7 @@
                         alt=""
                         class="rounded-circle mr-2 profile-picture"
                       />
-                      Hi, Muafi
+                      Hi, Admin Toko Jamil Mukti
                     </a>
                     <div class="dropdown-menu">
                       <a href="/" class="dropdown-item">Logout</a>
@@ -120,7 +120,7 @@
                 <!-- Mobile Menu -->
                 <ul class="navbar-nav d-block d-lg-none">
                   <li class="nav-item">
-                    <a href="#" class="nav-link"> Hi, Muafi </a>
+                    <a href="#" class="nav-link"> Hi, Admin Toko Jamil Mukti </a>
                   </li>
                   <li class="nav-item">
                     <a href="#" class="nav-link d-inline-block"> Cart </a>
