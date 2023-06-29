@@ -42,10 +42,10 @@
                               </div>
                               <div class="col-12 col-md-6">
                                 <div class="product-title">
-                                  {{ $transaction->created_at }}
+                                  Date of Transaction
                                 </div>
                                 <div class="product-subtitle">
-                                  12 Januari, 2020
+                                  {{ $transaction->created_at }}
                                 </div>
                               </div>
                               <div class="col-12 col-md-6">
@@ -59,7 +59,7 @@
                                 <div class="product-subtitle">Rp{{ number_format($transaction->transaction->total_price) }}</div>
                               </div>
                               <div class="col-12 col-md-6">
-                                <div class="product-title">Mobile</div>
+                                <div class="product-title">No Handphone</div>
                                 <div class="product-subtitle">
                                   {{ $transaction->transaction->user->phone_number }}
                                 </div>
@@ -103,7 +103,7 @@
                                   <div class="product-title">Country</div>
                                   <div class="product-subtitle">{{ $transaction->transaction->user->country }}</div>
                                 </div>
-                                <div class="col-12 col-md-3">
+                                {{--<div class="col-12 col-md-3">
                                   <div class="product-title">Shipping Status</div>
                                   <select
                                     name="shipping_status"
@@ -115,8 +115,8 @@
                                     <option value="SHIPPING">Shipping</option>
                                     <option value="SUCCESS">Success</option>
                                   </select>
-                                </div>
-                                <template v-if="status == 'SHIPPING'">
+                                </div>--}}
+                                {{--<template v-if="status == 'SHIPPING'">
                                   <div class="col-md-3">
                                     <div class="product-title">Input Resi</div>
                                     <input
@@ -134,11 +134,11 @@
                                       Update Resi
                                     </button>
                                   </div>
-                                </template>
+                                </template>--}}
                               </div>
                             </div>
                           </div>
-                          <div class="row mt-4">
+                          {{--<div class="row mt-4">
                             <div class="col-12 text-right">
                               <button
                                 type="submit"
@@ -147,7 +147,7 @@
                                 Save Now
                               </button>
                             </div>
-                          </div>
+                          </div>--}}
                         </form>
                       </div>
                     </div>

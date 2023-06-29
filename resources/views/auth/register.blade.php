@@ -74,10 +74,10 @@
                         </span>
                       @enderror
                 </div>
-                <div class="form-group">
+                {{--<div class="form-group">
                   <label> Store</label>
-                  <p class="text-muted">Apakah anda ingin membuka toko?</p>
-                  <div
+                  <p class="text-muted">Apakah anda ingin membuka toko?</p>--}}
+                  {{--<div
                     class="custom-control custom-radio custom-control-inline"
                   >
                     <input
@@ -91,8 +91,8 @@
                     <label for="openStoreTrue" class="custom-control-label"
                       >Iya, boleh</label
                     >
-                  </div>
-                  <div
+                  </div>--}}
+                  {{--<div
                     class="custom-control custom-radio custom-control-inline"
                   >
                     <input
@@ -132,11 +132,14 @@
                         <option value="{{ $category->id }}">{{ $category->name }}</option>
                     @endforeach
                   </select>
-                </div>
+                </div>--}}
                 <button
                   type="submit"
                   class="btn btn-success btn-block mt-4"
                   :disabled="this.email_unavailable"
+                  id="openStoreTrue"
+                  v-model="is_store_open"
+                  :value="true" name="is_store_open"
                 >
                   Sign Up Now
                 </button>
@@ -203,8 +206,8 @@
       },
         data() {
           return{
-            name: "Angga Hazza Sett",
-            email: "kamujagoan@bwa.id",
+            name: "",
+            email: "",
             is_store_open: true,
             store_name: "",
             email_unavailable: false

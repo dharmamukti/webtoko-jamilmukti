@@ -14,7 +14,7 @@
               <h2>Transaction Processed!</h2>
               <p>
                 Silahkan tunggu konfirmasi email dari kami dan kami akan
-                menginformasikan resi secepat mungkin!
+                menginformasikan pengiriman secepat mungkin!
               </p>
               <div>
                 <a href="/dashboard.html" class="btn btn-success w-50 mt-4">

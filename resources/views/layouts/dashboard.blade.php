@@ -32,24 +32,24 @@
             >
               Dashboard
             </a>
-            <a
+            {{--<a
               href="{{ route('dashboard-product') }}"
               class="list-group-item list-group-item-action {{ (request()->is('dashboard/products*')) ? 'active' : '' }}"
             >
               My Products
-            </a>
+            </a>--}}
             <a
               href="{{ route('dashboard-transaction') }}"
               class="list-group-item list-group-item-action {{ (request()->is('dashboard/transactions*')) ? 'active' : '' }}"
             >
               Transactions
             </a>
-            <a
+            {{--<a
               href="{{ route('dashboard-settings-store') }}"
               class="list-group-item list-group-item-action {{ (request()->is('dashboard/settings*')) ? 'active' : '' }}"
             >
               Store Settings
-            </a>
+            </a>--}}
             <a
               href="{{ route('dashboard-settings-account') }}"
               class="list-group-item list-group-item-action {{ (request()->is('dashboard/account*')) ? 'active' : '' }}"
@@ -105,7 +105,7 @@
                       Hi, {{ Auth::user()->name }}
                     </a>
                     <div class="dropdown-menu">
-                      <a href="{{ route('dashboard') }}" class="dropdown-item">Dashboard</a>
+                      <a href="{{ route('admin-dashboard') }}" class="dropdown-item">Dashboard</a>
                       <a href="{{ route('dashboard-settings-account') }}" class="dropdown-item"
                         >Settings</a
                       >

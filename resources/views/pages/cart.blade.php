@@ -36,7 +36,7 @@
                 <thead>
                   <tr>
                     <td>Image</td>
-                    <td>Name &amp; Seller</td>
+                    <td>Name</td>
                     <td>Price</td>
                     <td>Menu</td>
                   </tr>
@@ -98,7 +98,7 @@
                     class="form-control"
                     id="address_one"
                     name="address_one"
-                    value="Setra Duta Cemara"
+                    value=""
                   />
                 </div>
               </div>
@@ -110,7 +110,7 @@
                     class="form-control"
                     id="address_two"
                     name="address_two"
-                    value="Blok B2 No. 34"
+                    value=""
                   />
                 </div>
               </div>
@@ -140,7 +140,7 @@
                     class="form-control"
                     id="zip_code"
                     name="zip_code"
-                    value="40512"
+                    value=""
                   />
                 </div>
               </div>
@@ -158,13 +158,13 @@
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="phone_number">Mobile</label>
+                  <label for="phone_number">No Handphone</label>
                   <input
                     type="text"
                     class="form-control"
                     id="phone_number"
                     name="phone_number"
-                    value="+628 2020 11111"
+                    value=""
                   />
                 </div>
               </div>

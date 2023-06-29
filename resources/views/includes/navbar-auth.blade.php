@@ -23,7 +23,7 @@
               <a href="{{ route('categories') }}" class="nav-link">Categories</a>
             </li>
             <li class="navbar-item">
-              <a href="#" class="nav-link">Rewards</a>
+              <a href="{{ route('profile') }}" class="nav-link">Profile</a>
             </li>
           </ul>
         </div>

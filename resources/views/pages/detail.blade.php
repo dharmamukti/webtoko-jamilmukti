@@ -107,7 +107,7 @@
             </div>
           </div>
         </section>
-        <section class="store-review">
+        {{--<section class="store-review">
           <div class="container">
             <div class="row">
               <div class="col-12 col-lg-8 mt-3 mb-3">
@@ -162,7 +162,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section>--}}
       </div>
     </div>
 

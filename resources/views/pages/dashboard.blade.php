@@ -16,6 +16,11 @@
                 <p class="dashboard-subtitle">Look what you have made today!</p>
               </div>
               <div class="dashboard-content">
+                <div class="row justify-content-center">
+                  <img src="/images/icon-dashboard.png" alt="">
+                </div>
+              </div>
+              {{--<div class="dashboard-content">
                 <div class="row">
                   <div class="col-md-4">
                     <div class="card mb-2">
@@ -73,7 +78,7 @@
                     @endforeach
                   </div>
                 </div>
-              </div>
+              </div>--}}
             </div>
         </div>
 @endsection
